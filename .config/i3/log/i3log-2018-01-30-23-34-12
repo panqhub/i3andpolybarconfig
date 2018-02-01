@@ -1,0 +1,284 @@
+2018年01月30日 23时34分13秒 - i3 4.14.1 (2017-09-24) starting
+2018年01月30日 23时34分14秒 - Parsing configfile /home/wjl/.config/i3/config
+2018年01月30日 23时34分14秒 - deciding for version 4 due to this line: # i3 config file (v4)
+2018年01月30日 23时34分14秒 - [libi3] ../i3-4.14.1/../i3-4.14.1/libi3/font.c Using Pango font ttf-liberation-mono, size 14
+2018年01月30日 23时34分15秒 - Used number 1 for workspace with name 1: 
+2018年01月30日 23时34分15秒 - This is not an in-place restart, copying root window contents to a pixmap
+2018年01月30日 23时34分15秒 - auto-starting (always!) $HOME/.config/polybar/launch.sh
+2018年01月30日 23时34分15秒 - executing: $HOME/.config/polybar/launch.sh
+Bars launched...
+polybar|warn:  No monitor specified, using "eDP-1"
+polybar|error: module/mpd: Connection refused
+2018年01月30日 23时34分26秒 - workspace visible? fs = 0x55d29a56b380, ws = 0x55d29a56b380
+2018年01月30日 23时34分27秒 - WM_CLASS changed to polybar (instance), Polybar (class)
+2018年01月30日 23时34分27秒 - WM_NAME changed to "polybar-example_eDP-1"
+2018年01月30日 23时34分27秒 - Using legacy window title. Note that in order to get Unicode window titles in i3, the application has to set _NET_WM_NAME (UTF-8)
+2018年01月30日 23时34分27秒 - This window is of type dock
+2018年01月30日 23时34分27秒 - Checking window 0x00e00002 (class Polybar)
+2018年01月30日 23时34分27秒 - dock status matches
+2018年01月30日 23时34分27秒 - Checking window 0x00e00002 (class Polybar)
+2018年01月30日 23时34分27秒 - Regular expression "netease-cloud-music" does not match "Polybar"
+2018年01月30日 23时34分27秒 - Checking window 0x00e00002 (class Polybar)
+2018年01月30日 23时34分27秒 - Regular expression "wechat" does not match "Polybar"
+2018年01月30日 23时34分27秒 - Checking window 0x00e00002 (class Polybar)
+2018年01月30日 23时34分27秒 - Regular expression "^.*" matches "Polybar"
+2018年01月30日 23时34分27秒 - window class matches (Polybar)
+2018年01月30日 23时34分27秒 - dock status does not match
+2018年01月30日 23时34分27秒 - Checking window 0x00e00002 (class Polybar)
+2018年01月30日 23时34分27秒 - Checking window 0x00e00002 (class Polybar)
+2018年01月30日 23时34分27秒 - Checking window 0x00e00002 (class Polybar)
+2018年01月30日 23时34分27秒 - Regular expression "netease-cloud-music" does not match "Polybar"
+2018年01月30日 23时34分27秒 - Checking window 0x00e00002 (class Polybar)
+2018年01月30日 23时34分27秒 - Regular expression "VirtualBox Manager" does not match "Polybar"
+2018年01月30日 23时34分27秒 - Checking window 0x00e00002 (class Polybar)
+2018年01月30日 23时34分27秒 - Regular expression "wechat" does not match "Polybar"
+2018年01月30日 23时34分27秒 - Checking window 0x00e00002 (class Polybar)
+2018年01月30日 23时34分27秒 - Regular expression "vokoscreen" does not match "Polybar"
+2018年01月30日 23时34分27秒 - Checking window 0x00e00002 (class Polybar)
+2018年01月30日 23时34分27秒 - Regular expression "vlc" does not match "Polybar"
+2018年01月30日 23时34分27秒 - workspace visible? fs = 0x55d29a56b380, ws = 0x55d29a56b380
+2018年01月30日 23时34分27秒 - workspace visible? fs = 0x55d29a567450, ws = 0x55d29a567450
+polybar|error: Invalid _XEMBED_INFO for window 0x0600016
+2018年01月30日 23时34分28秒 - ClientMessage for window 0x00000106
+polybar|error: Invalid _XEMBED_INFO for window 0x140002b
+2018年01月30日 23时34分34秒 - Not a managed window, ignoring UnmapNotify event
+2018年01月30日 23时34分34秒 - Not a managed window, ignoring UnmapNotify event
+2018年01月30日 23时34分34秒 - startup id = i3/i3-sensible-terminal/523-0-arch_TIME54230
+2018年01月30日 23时34分34秒 - executing: i3-sensible-terminal
+2018年01月30日 23时34分34秒 - Not a managed window, ignoring UnmapNotify event
+无法连接到会话管理器：无法与会话管理器连接：SESSION_MANAGER environment variable not defined
+2018年01月30日 23时34分36秒 - ClientMessage for window 0x01800003
+2018年01月30日 23时34分36秒 - WM_CLASS changed to xfce4-terminal (instance), Xfce4-terminal (class)
+2018年01月30日 23时34分36秒 - WM_NAME changed to "Terminal $(AVU$(BC<"
+2018年01月30日 23时34分36秒 - Using legacy window title. Note that in order to get Unicode window titles in i3, the application has to set _NET_WM_NAME (UTF-8)
+2018年01月30日 23时34分36秒 - _NET_WM_NAME changed to "Terminal 终端"
+2018年01月30日 23时34分36秒 - WM_WINDOW_ROLE changed to "xfce4-terminal-1517326475--1979570376"
+2018年01月30日 23时34分36秒 - WM_HINTS.input changed to "1"
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - dock status does not match
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - dock status does not match
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "netease-cloud-music" does not match "Xfce4-terminal"
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "wechat" does not match "Xfce4-terminal"
+2018年01月30日 23时34分36秒 - workspace visible? fs = 0x55d29a56b380, ws = 0x55d29a56b380
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "netease-cloud-music" does not match "Xfce4-terminal"
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "wechat" does not match "Xfce4-terminal"
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "^.*" matches "Xfce4-terminal"
+2018年01月30日 23时34分36秒 - window class matches (Xfce4-terminal)
+2018年01月30日 23时34分36秒 - dock status matches
+2018年01月30日 23时34分36秒 - Checking window 0x00e00002 (class Polybar)
+2018年01月30日 23时34分36秒 - window id does not match
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - match made by window id (25165827)
+2018年01月30日 23时34分36秒 - dock status matches
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "pop-up" does not match "xfce4-terminal-1517326475--1979570376"
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "task_dialog" does not match "xfce4-terminal-1517326475--1979570376"
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "netease-cloud-music" does not match "Xfce4-terminal"
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "VirtualBox Manager" does not match "Xfce4-terminal"
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "wechat" does not match "Xfce4-terminal"
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "vokoscreen" does not match "Xfce4-terminal"
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "vlc" does not match "Xfce4-terminal"
+2018年01月30日 23时34分36秒 - workspace visible? fs = 0x55d29a56b380, ws = 0x55d29a56b380
+2018年01月30日 23时34分36秒 - workspace visible? fs = 0x55d29a56b380, ws = 0x55d29a56b380
+2018年01月30日 23时34分36秒 - workspace visible? fs = 0x55d29a567450, ws = 0x55d29a567450
+2018年01月30日 23时34分36秒 - Not a managed window, ignoring UnmapNotify event
+2018年01月30日 23时34分36秒 - Not a managed window, ignoring UnmapNotify event
+2018年01月30日 23时34分36秒 - Not a managed window, ignoring UnmapNotify event
+2018年01月30日 23时34分36秒 - _NET_WM_NAME changed to "Terminal 终端 - wjl@arch: ~"
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "netease-cloud-music" does not match "Xfce4-terminal"
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "wechat" does not match "Xfce4-terminal"
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "^.*" matches "Xfce4-terminal"
+2018年01月30日 23时34分36秒 - window class matches (Xfce4-terminal)
+2018年01月30日 23时34分36秒 - dock status matches
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "pop-up" does not match "xfce4-terminal-1517326475--1979570376"
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "task_dialog" does not match "xfce4-terminal-1517326475--1979570376"
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "netease-cloud-music" does not match "Xfce4-terminal"
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "VirtualBox Manager" does not match "Xfce4-terminal"
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "wechat" does not match "Xfce4-terminal"
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "vokoscreen" does not match "Xfce4-terminal"
+2018年01月30日 23时34分36秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时34分36秒 - Regular expression "vlc" does not match "Xfce4-terminal"
+2018年01月30日 23时34分36秒 - Not a managed window, ignoring UnmapNotify event
+polybar|error: Invalid _XEMBED_INFO for window 0x140004b
+2018年01月30日 23时35分02秒 - _NET_WM_NAME changed to "Terminal 终端 - sudo ntfs-3g /dev/sdb1 Windows"
+2018年01月30日 23时35分02秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分02秒 - Regular expression "netease-cloud-music" does not match "Xfce4-terminal"
+2018年01月30日 23时35分02秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分02秒 - Regular expression "wechat" does not match "Xfce4-terminal"
+2018年01月30日 23时35分02秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分02秒 - Regular expression "^.*" matches "Xfce4-terminal"
+2018年01月30日 23时35分02秒 - window class matches (Xfce4-terminal)
+2018年01月30日 23时35分02秒 - dock status matches
+2018年01月30日 23时35分02秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分02秒 - Regular expression "pop-up" does not match "xfce4-terminal-1517326475--1979570376"
+2018年01月30日 23时35分02秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分02秒 - Regular expression "task_dialog" does not match "xfce4-terminal-1517326475--1979570376"
+2018年01月30日 23时35分02秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分02秒 - Regular expression "netease-cloud-music" does not match "Xfce4-terminal"
+2018年01月30日 23时35分02秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分02秒 - Regular expression "VirtualBox Manager" does not match "Xfce4-terminal"
+2018年01月30日 23时35分02秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分02秒 - Regular expression "wechat" does not match "Xfce4-terminal"
+2018年01月30日 23时35分02秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分02秒 - Regular expression "vokoscreen" does not match "Xfce4-terminal"
+2018年01月30日 23时35分02秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分02秒 - Regular expression "vlc" does not match "Xfce4-terminal"
+2018年01月30日 23时35分06秒 - _NET_WM_NAME changed to "Terminal 终端 - wjl@arch: ~"
+2018年01月30日 23时35分06秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分06秒 - Regular expression "netease-cloud-music" does not match "Xfce4-terminal"
+2018年01月30日 23时35分06秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分06秒 - Regular expression "wechat" does not match "Xfce4-terminal"
+2018年01月30日 23时35分06秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分06秒 - Regular expression "^.*" matches "Xfce4-terminal"
+2018年01月30日 23时35分06秒 - window class matches (Xfce4-terminal)
+2018年01月30日 23时35分06秒 - dock status matches
+2018年01月30日 23时35分06秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分06秒 - Regular expression "pop-up" does not match "xfce4-terminal-1517326475--1979570376"
+2018年01月30日 23时35分06秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分06秒 - Regular expression "task_dialog" does not match "xfce4-terminal-1517326475--1979570376"
+2018年01月30日 23时35分06秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分06秒 - Regular expression "netease-cloud-music" does not match "Xfce4-terminal"
+2018年01月30日 23时35分06秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分06秒 - Regular expression "VirtualBox Manager" does not match "Xfce4-terminal"
+2018年01月30日 23时35分06秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分06秒 - Regular expression "wechat" does not match "Xfce4-terminal"
+2018年01月30日 23时35分06秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分06秒 - Regular expression "vokoscreen" does not match "Xfce4-terminal"
+2018年01月30日 23时35分06秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分06秒 - Regular expression "vlc" does not match "Xfce4-terminal"
+2018年01月30日 23时35分07秒 - _NET_WM_NAME changed to "Terminal 终端 - clear"
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "netease-cloud-music" does not match "Xfce4-terminal"
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "wechat" does not match "Xfce4-terminal"
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "^.*" matches "Xfce4-terminal"
+2018年01月30日 23时35分07秒 - window class matches (Xfce4-terminal)
+2018年01月30日 23时35分07秒 - dock status matches
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "pop-up" does not match "xfce4-terminal-1517326475--1979570376"
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "task_dialog" does not match "xfce4-terminal-1517326475--1979570376"
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "netease-cloud-music" does not match "Xfce4-terminal"
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "VirtualBox Manager" does not match "Xfce4-terminal"
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "wechat" does not match "Xfce4-terminal"
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "vokoscreen" does not match "Xfce4-terminal"
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "vlc" does not match "Xfce4-terminal"
+2018年01月30日 23时35分07秒 - _NET_WM_NAME changed to "Terminal 终端 - wjl@arch: ~"
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "netease-cloud-music" does not match "Xfce4-terminal"
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "wechat" does not match "Xfce4-terminal"
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "^.*" matches "Xfce4-terminal"
+2018年01月30日 23时35分07秒 - window class matches (Xfce4-terminal)
+2018年01月30日 23时35分07秒 - dock status matches
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "pop-up" does not match "xfce4-terminal-1517326475--1979570376"
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "task_dialog" does not match "xfce4-terminal-1517326475--1979570376"
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "netease-cloud-music" does not match "Xfce4-terminal"
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "VirtualBox Manager" does not match "Xfce4-terminal"
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "wechat" does not match "Xfce4-terminal"
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "vokoscreen" does not match "Xfce4-terminal"
+2018年01月30日 23时35分07秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分07秒 - Regular expression "vlc" does not match "Xfce4-terminal"
+2018年01月30日 23时35分15秒 - _NET_WM_NAME changed to "Terminal 终端 - cp videos/simplescreenrecorder-2018-01-29_02.57.00.mkv Windows"
+2018年01月30日 23时35分15秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分15秒 - Regular expression "netease-cloud-music" does not match "Xfce4-terminal"
+2018年01月30日 23时35分15秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分15秒 - Regular expression "wechat" does not match "Xfce4-terminal"
+2018年01月30日 23时35分15秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分15秒 - Regular expression "^.*" matches "Xfce4-terminal"
+2018年01月30日 23时35分15秒 - window class matches (Xfce4-terminal)
+2018年01月30日 23时35分15秒 - dock status matches
+2018年01月30日 23时35分15秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分15秒 - Regular expression "pop-up" does not match "xfce4-terminal-1517326475--1979570376"
+2018年01月30日 23时35分15秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分15秒 - Regular expression "task_dialog" does not match "xfce4-terminal-1517326475--1979570376"
+2018年01月30日 23时35分15秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分15秒 - Regular expression "netease-cloud-music" does not match "Xfce4-terminal"
+2018年01月30日 23时35分15秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分15秒 - Regular expression "VirtualBox Manager" does not match "Xfce4-terminal"
+2018年01月30日 23时35分15秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分15秒 - Regular expression "wechat" does not match "Xfce4-terminal"
+2018年01月30日 23时35分15秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分15秒 - Regular expression "vokoscreen" does not match "Xfce4-terminal"
+2018年01月30日 23时35分15秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分15秒 - Regular expression "vlc" does not match "Xfce4-terminal"
+2018年01月30日 23时35分18秒 - _NET_WM_NAME changed to "Terminal 终端 - wjl@arch: ~"
+2018年01月30日 23时35分18秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分18秒 - Regular expression "netease-cloud-music" does not match "Xfce4-terminal"
+2018年01月30日 23时35分18秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分18秒 - Regular expression "wechat" does not match "Xfce4-terminal"
+2018年01月30日 23时35分18秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分18秒 - Regular expression "^.*" matches "Xfce4-terminal"
+2018年01月30日 23时35分18秒 - window class matches (Xfce4-terminal)
+2018年01月30日 23时35分18秒 - dock status matches
+2018年01月30日 23时35分18秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分18秒 - Regular expression "pop-up" does not match "xfce4-terminal-1517326475--1979570376"
+2018年01月30日 23时35分18秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分18秒 - Regular expression "task_dialog" does not match "xfce4-terminal-1517326475--1979570376"
+2018年01月30日 23时35分18秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分18秒 - Regular expression "netease-cloud-music" does not match "Xfce4-terminal"
+2018年01月30日 23时35分18秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分18秒 - Regular expression "VirtualBox Manager" does not match "Xfce4-terminal"
+2018年01月30日 23时35分18秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分18秒 - Regular expression "wechat" does not match "Xfce4-terminal"
+2018年01月30日 23时35分18秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分18秒 - Regular expression "vokoscreen" does not match "Xfce4-terminal"
+2018年01月30日 23时35分18秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分18秒 - Regular expression "vlc" does not match "Xfce4-terminal"
+2018年01月30日 23时35分21秒 - _NET_WM_NAME changed to "Terminal 终端 - reboot"
+2018年01月30日 23时35分21秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分21秒 - Regular expression "netease-cloud-music" does not match "Xfce4-terminal"
+2018年01月30日 23时35分21秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分21秒 - Regular expression "wechat" does not match "Xfce4-terminal"
+2018年01月30日 23时35分21秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分21秒 - Regular expression "^.*" matches "Xfce4-terminal"
+2018年01月30日 23时35分21秒 - window class matches (Xfce4-terminal)
+2018年01月30日 23时35分21秒 - dock status matches
+2018年01月30日 23时35分21秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分21秒 - Regular expression "pop-up" does not match "xfce4-terminal-1517326475--1979570376"
+2018年01月30日 23时35分21秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分21秒 - Regular expression "task_dialog" does not match "xfce4-terminal-1517326475--1979570376"
+2018年01月30日 23时35分21秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分21秒 - Regular expression "netease-cloud-music" does not match "Xfce4-terminal"
+2018年01月30日 23时35分21秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分21秒 - Regular expression "VirtualBox Manager" does not match "Xfce4-terminal"
+2018年01月30日 23时35分21秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分21秒 - Regular expression "wechat" does not match "Xfce4-terminal"
+2018年01月30日 23时35分21秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分21秒 - Regular expression "vokoscreen" does not match "Xfce4-terminal"
+2018年01月30日 23时35分21秒 - Checking window 0x01800003 (class Xfce4-terminal)
+2018年01月30日 23时35分21秒 - Regular expression "vlc" does not match "Xfce4-terminal"
