@@ -1,6 +1,9 @@
 # set Mod
 set $mod Mod1
 
+#  for screen lock
+bindsym $mod+l exec i3lock-fancy
+
 # for sound control  
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5% 
 bindsym $mod+Shift+plus exec pactl set-sink-volume 0 +5% 
@@ -29,12 +32,6 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
-
-# alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
@@ -154,13 +151,6 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
-
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
-
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
         bindsym Down resize grow height 10 px or 10 ppt
@@ -180,4 +170,13 @@ gaps outer 5
 
 # run polybar 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always feh --bg-center ~/Pic/octocat.jpg
+exec_always xautolock -time 10 -locker "i3lock-fancy"
+
+
+
+
+
+
+
 
