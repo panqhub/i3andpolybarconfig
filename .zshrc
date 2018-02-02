@@ -7,6 +7,7 @@ export LC_CTYPE=en_US.UTF-8
 export GTK_IM_MODULE=fcitx
 export QT_IM_MOUDLE=fcitx
 export XMODIFIERS=@im=fcitx
+export VISUAL="vim"
 
 POWERLEVEL9K_MODE='awesome-fontconfig'
 ZSH_THEME="powerlevel9k/powerlevel9k"
@@ -41,7 +42,3 @@ POWERLEVEL9K_SHORTEN_DIR_LENGTH=4
 
 POWERLEVEL9K_TIME_FORMAT="%D{\uf073 %d.%m.%y}"
 
-
-#---------- command alias ----------------
-alias neofetch='neofetch --w3m ~/Pic/octocat.jpg'
-export VISUAL="vim"
