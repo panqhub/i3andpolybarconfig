@@ -88,7 +88,7 @@ sudo pacman -S ncmpcpp
 ```
 yaourt -S i3lock-fancy-git
 ```
-这是i3lock的改成，用起来下过像下图
+这是i3lock的修改，用起来像下图
 ![2018-02-03-005814_1920x1080_scrot.png](http://upload-images.jianshu.io/upload_images/6948320-9b1bd51e148c8f2a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 但因为改锁屏方式进行了一些图像处理，所以比较费事，从你按下锁屏热键到锁上屏需要3s左右的时间，如果你不能忍受这个速度，那么你可以直接使用i3lock。
 在我的配置中，绑定了i3lock-fancy的锁屏快捷键为$mod+l，并设置好了定时自动锁屏，你可以自行修改。
