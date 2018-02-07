@@ -98,8 +98,20 @@ yaourt -S i3lock-fancy-git
 pacman -S oh-my-zsh-git
 ```
 这是配置得比较好的zsh，直接装上用就行了，由于我的配置文件中也提供了.zshrc，你可以通过浏览[oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)选择你喜欢的shell配置
+
+16. 安装ranger
+```
+pacman -S ranger
+```
+ranger是一个命令行的文件浏览器，但是如果你要使用改文件浏览器器预览图片，在大多数的终端中，可能会出现一系列显示问题。
+比如配合compton透明化处理，那么用ranger预览图片可能会导致预览图片窗全部透明，在很多终端上可能出现图像刷新不正常的情况。
+据ranger的作者说明，似乎是因为ranger使用的w3m生成缩略图的问题，但该项目已经很久前就停止更新了，经过我个人测试，linux终端中，目前已知的只有urxvt正常工作，相比其他终端，问题小点，但会无规律出现图片刷新显示失败。
+然而urxvt的Unicode字符显示不全，中文字体渲染也比较糟糕，所以我目前并没有找到完美的解决方案。
+可以根据自己的喜好和缺陷的接受程度，选择运行ranger的终端。
+
 ### 总结
 i3wm是一个平铺窗口管理器，使用i3wm不仅比装上桌面环境更剩资源，而且能让你的操作更高效，配置好了也非常美观！
 最终效果如下图：
 ![2018-02-03-010531_1920x1080_scrot.png](http://upload-images.jianshu.io/upload_images/6948320-9744d0553d3430d1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
