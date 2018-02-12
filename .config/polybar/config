@@ -1,6 +1,6 @@
-
 [colors]
-background = #CC000000
+background = ${xrdb:color0:#222}
+background = #BF000000
 background-alt = #444
 foreground = #dfdfdf
 foreground-alt = #555
@@ -9,8 +9,11 @@ secondary = #e60053
 alert = #bd2c40
 
 [bar/example]
+monitor = ${env:MONITOR:eDP-1}
 width = 100%
 height = 30
+;offset-x = 1%
+;offset-y = 1%
 radius = 6.0
 fixed-center = true
 
@@ -20,7 +23,9 @@ foreground = ${colors.foreground}
 line-size = 3
 line-color = #f00
 
-border-size = 4
+border-top-size = 4
+border-left-size = 4
+border-right-size = 4
 border-color = #00000000
 
 padding-left = 0
@@ -35,28 +40,14 @@ font-2 = "Font Awesome 5 Free:style=Solid:pixelsize=12;1"
 font-3 = "Font Awesome 5 Brands:style=Regular:pixelsize=12;1"
 font-4 = "material icons:pixelsize=16;3"
 
-#bspwm
 modules-left = i3 xwindow
 modules-center = mpd
 
-# xkeyboard xbacklight->backlight-acpi filesystem cpu memory
-modules-right = backlight-acpi volume wlan eth battery temperature date powermenu
+modules-right = backlight-acpi volume wlan eth battery temperature date
 
 tray-position = right
 tray-padding = 2
-;tray-transparent = true
-;tray-background = #0063ff
-
-;wm-restack = bspwm
-;wm-restack = i3
-
-;override-redirect = true
-
-;scroll-up = bspwm-desknext
-;scroll-down = bspwm-deskprev
-
-;scroll-up = i3wm-wsnext
-;scroll-down = i3wm-wsprev
+tray-background = ${colors.background}
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -71,7 +62,7 @@ label-maxlen = 45
 type = internal/xkeyboard
 blacklist-0 = num lock
 
-format-prefix = " "
+format-prefix = ""
 format-prefix-foreground = ${colors.foreground-alt}
 format-prefix-underline = ${colors.secondary}
 
@@ -112,54 +103,36 @@ label-empty = %index%
 label-empty-foreground = ${colors.foreground-alt}
 label-empty-padding = 2
 
-; Separator in between workspaces
-; label-separator = |
-
 [module/i3]
 type = internal/i3
 format = <label-state> <label-mode>
 index-sort = true
 wrapping-scroll = false
 
-; Only show workspaces on the same output as the bar
-;pin-workspaces = true
-
 label-mode-padding = 2
 label-mode-foreground = #000
 label-mode-background = ${colors.primary}
 
-; focused = Active workspace on focused monitor
-#label-focused = %index%
 label-focused-background = ${module/bspwm.label-focused-background}
 label-focused-underline = ${module/bspwm.label-focused-underline}
 label-focused-padding = ${module/bspwm.label-focused-padding}
 
-; unfocused = Inactive workspace on any monitor
-#label-unfocused = %index%
 label-unfocused-padding = ${module/bspwm.label-occupied-padding}
 
-; visible = Active workspace on unfocused monitor
-#label-visible = %index%
 label-visible-background = ${self.label-focused-background}
 label-visible-underline = ${self.label-focused-underline}
 label-visible-padding = ${self.label-focused-padding}
 
-; urgent = Workspace with urgency hint set
-#label-urgent = %index%
 label-urgent-background = ${module/bspwm.label-urgent-background}
-label-urgent-padding = ${module/bspwm.label-urgent-padding}
-
-; Separator in between workspaces
-; label-separator = |
+label-urgent-padding = ${module/bspwm.label-urgent-padding} |
 
 
 [module/mpd]
 type = internal/mpd
-format-online =  <icon-prev>  <icon-stop>  <toggle>  <icon-next>  <icon-repeatone>  <label-song>
+format-online =  <icon-prev>  <icon-stop>  <toggle>  <icon-next>  <icon-repeat>  <label-song>
 
-#label-offline =  mpd is offline
+;label-offline = mpd is offline
 
-#                    
 icon-prev = 
 icon-stop = 
 icon-play = 
@@ -223,7 +196,7 @@ format-connected = <ramp-signal>
 format-connected-underline = #9f78e1
 label-connected = "%essid%"
 
-format-disconnected = •
+format-disconnected = 
 ;format-disconnected = <label-disconnected>
 format-disconnected-underline = ${self.format-connected-underline}
 label-disconnected = %ifname% disconnected
@@ -278,7 +251,7 @@ format-volume = <label-volume> <bar-volume>
 label-volume = VOL
 label-volume-foreground = ${root.foreground}
 
-format-muted-prefix = " "
+format-muted-prefix = " "
 format-muted-foreground = ${colors.foreground-alt}
 label-muted = sound muted
 
@@ -353,8 +326,6 @@ expand-right = true
 
 format-spacing = 1
 
-;label-active-font = 5
-
 label-open = 
 label-open-foreground = ${colors.secondary}
 label-close =  cancel
@@ -370,14 +341,9 @@ menu-0-1-exec = poweroff
 
 [settings]
 screenchange-reload = true
-;compositing-background = xor
-;compositing-background = screen
-;compositing-foreground = source
-;compositing-border = over
+
 
 [global/wm]
 margin-top = 5
 margin-bottom = 5
-
-; vim:ft=dosini
 

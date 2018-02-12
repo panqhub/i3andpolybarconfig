@@ -99,7 +99,11 @@ pacman -S oh-my-zsh-git
 ```
 这是配置得比较好的zsh，直接装上用就行了，由于我的配置文件中也提供了.zshrc，你可以通过浏览[oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)选择你喜欢的shell配置
 
-16. 安装ranger
+16. 安装[powerlevel9k](https://github.com/bhilburn/powerlevel9k)(可以作为oh my zsh的一个主题使用)
+[点击这里](https://github.com/bhilburn/powerlevel9k/wiki/Show-Off-Your-Config)有很多好看的配置
+你也可以参考或使用我的配置
+
+17. 安装ranger
 ```
 pacman -S ranger
 ```
