@@ -117,6 +117,6 @@ ranger是一个命令行的文件浏览器，但是如果你要使用改文件�
 ### 总结
 i3wm是一个平铺窗口管理器，使用i3wm不仅比装上桌面环境更剩资源，而且能让你的操作更高效，配置好了也非常美观！
 最终效果如下图：
-![2018-02-03-010531_1920x1080_scrot.png](http://upload-images.jianshu.io/upload_images/6948320-9744d0553d3430d1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![2018-02-12-142954_1920x1080_scrot.png](http://upload-images.jianshu.io/upload_images/6948320-ddad3c54b597ccd2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
