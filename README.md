@@ -51,7 +51,7 @@ exec i3 -V >> ~/.config/i3/log/i3log-$(date +'%F-%k-%M-%S') 2>&1
 8. 安装polybar
 建议直接从AUR中安装
 ```
-yaourt -S polybar
+yaourt -S polybar-git
 ```
 注意：在通过yaourt安装过程中，先查看构建包，结构如下
 

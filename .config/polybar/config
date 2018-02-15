@@ -43,7 +43,7 @@ font-4 = "material icons:pixelsize=16;3"
 modules-left = i3 xwindow
 modules-center = mpd
 
-modules-right = backlight-acpi volume wlan eth battery temperature date
+modules-right = backlight-acpi alsa wlan eth battery temperature date
 
 tray-position = right
 tray-padding = 2
@@ -244,7 +244,7 @@ format-underline = #0a6cf5
 label = %date% %time%
 
 
-[module/volume]
+[module/alsa]
 type = internal/volume
 
 format-volume = <label-volume> <bar-volume>
